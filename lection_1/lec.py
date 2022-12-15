@@ -32,17 +32,30 @@
 # else: 
 #     print(b)
 
-original = 23
-inverted = 0
-while original != 0:
-    inverted = inverted * 10 + (original % 10)
-    original //= 10
-print(inverted)   
+# original = 23
+# inverted = 0
+# while original != 0:
+#     inverted = inverted * 10 + (original % 10)
+#     original //= 10
+# print(inverted)   
 
-list = [1,2,4,68,23]
-for i in list:
-    print(i)
+# list = [1,2,4,68,23]
+# for i in list:
+#     print(i)
 
-list = range(0, 10, 1) # от 0 до 9 каждую 1 цифру
-for i in list:
-    print(i)
+# list = range(0, 10, 1) # от 0 до 9 каждую 1 цифру
+# for i in list:
+#     print(i)
+
+#     help(str) # вызов справки
+
+def f(x):
+    if x == 1:
+        return 'Целое'
+    elif x == 2.3:
+        return 23
+    else:
+        return
+
+arg = 1
+print(f(arg))
