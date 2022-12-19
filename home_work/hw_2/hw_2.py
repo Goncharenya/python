@@ -40,17 +40,18 @@
 # Ввод: 4
 # [-4, -3, -2, -1, 0, 1, 2, 3,4]
 n = int(input('Введите число: '))
-list = [2, 2, 3, 1, 8]
+indexes = [2, 2, 3, 1, 8]
 
 list2 = range(-n, n + 1)
-result = 0
-print(list2)
+result = 1
 
-#for i in list2:
-    
+for i in indexes:
+    if i <= len(list2) -1 and i >= 0:
+        num = list2[i]
+        result = result * num
+        print(i, num)
+print(result)
 
-
-#print(result)
 
 
 
