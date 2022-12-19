@@ -23,3 +23,8 @@ else:
 # - 5 -> нет
 # - 0,34 -> 3
 
+num_n = abs(int(input('Введите число N: ')))
+
+lst_nums = list(range(-num_n, num_n +1))
+print(*lst_nums, sep=' ')
+
