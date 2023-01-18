@@ -47,6 +47,16 @@
 # print(lst, "=>", max(new_lst) - min(new_lst))
 
 
+# list = [1.4, 1.2, 3.1, 5, 10.01]
+# min = 1
+# max = 0
+# for i in list:
+#     if (i - int(i)) <= min:
+#         min = i - int(i)
+#     if (i - int(i)) >= max:
+#         max = i - int(i)
+# print(max - min)
+
 # 4. Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 
 # Пример:
@@ -72,23 +82,23 @@
 # - для k = 8 список будет выглядеть так: [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21]
 
 
-num = int(input("Введите число: "))
+# num = int(input("Введите число: "))
 
 
-def getFib(num):
-    numFib = []
-    numA = 1
-    numB = 1
-    for i in range(num ):
-        numFib.append(numA)
-        numA, numB = numB, numA + numB
-    numA = 0
-    numB = 1
-    for i in range(num +1):
-        numFib.insert(0, numA)
-        numA, numB = numB, numA - numB
-    return numFib
+# def getFib(num):
+#     numFib = []
+#     numA = 1
+#     numB = 1
+#     for i in range(num ):
+#         numFib.append(numA)
+#         numA, numB = numB, numA + numB
+#     numA = 0
+#     numB = 1
+#     for i in range(num +1):
+#         numFib.insert(0, numA)
+#         numA, numB = numB, numA - numB
+#     return numFib
 
-numFib = getFib(num)
+# numFib = getFib(num)
 
-print(getFib(num))
+# print(getFib(num))
